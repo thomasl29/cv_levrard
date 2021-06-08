@@ -1,0 +1,178 @@
+h1
+
+{
+	font-size: 40px;
+	color: #547c9a;
+	font-family: impact, sans-serif;
+}
+
+body
+
+{
+	background-color: white;
+	text-align: center;
+	margin-right: 10%;
+	margin-left: 10%;
+	font-family: times, sans-serif;
+}
+
+
+h4 
+
+{
+	font-style: italic;
+}
+
+#titre
+
+{
+	position: relative;
+	top:75px;
+	left:30%;
+	background-color: white;
+	width: 40%;
+	margin:20px;
+}
+
+#titre h2
+
+{
+	margin-top: -10px;
+	font-style: italic;
+	color:#7db0d6;
+}
+
+#bloc
+
+{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	width:auto;
+	height: auto;
+	padding: 20px;
+	padding-top: 100px;
+	background-color: white;
+	border: 4px solid #547c9a;
+	margin-right: 100px;
+	margin-left: 100px;
+
+}
+
+#bloc h2
+
+{
+	font-family : impact;
+	color:#547c9a;
+	font-size: 25px;
+	text-align: left;
+}
+
+#experience
+
+{
+	background-color: white;
+	flex:1;
+	border-left: 2px solid #547c9a;
+	padding-left: 50px;
+}
+
+#contact
+
+{
+	background-color: white;
+	flex:0.5;
+	border-right: 2px solid #547c9a;
+}
+
+
+#experience h3
+
+{
+	font-size: 20px;
+	text-align:left;
+	color:#7db0d6;
+}
+
+#experience h4
+
+{
+	font-size: 18px;
+	margin-top: -10px;
+	text-align: left;
+	font-weight: italic;
+	color: #3E8ECA;
+}
+
+#experience a 
+
+{
+	color:#3E8ECA;
+}
+
+#experience a:hover
+
+{
+	color:black;
+}
+
+#experience ul
+
+{
+	text-align: left;
+	font-size: 15px;
+	margin-top: -10px;
+}
+
+
+#contact p
+
+{
+	font-size: 15px;
+	text-align: left;
+	padding-right: 20px;
+}
+
+a
+
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover 
+
+{
+	color:#547c9a;
+}
+
+#contact ul
+
+{
+	text-align:left;
+	font-size:15px;
+	margin-left: -40px;
+}
+
+ul 
+
+{
+	list-style-type: none;
+
+}
+
+ul li::before 
+
+{
+	content: "○ ";
+	color:#547c9a;
+}
+
+
+footer
+
+{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 5%;
+}
